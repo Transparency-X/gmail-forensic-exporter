@@ -1,0 +1,16 @@
+# Gmail Forensic Exporter — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# Core: Google Gmail API (required)
+google-api-python-client>=2.100.0
+google-auth-httplib2>=0.1.1
+google-auth-oauthlib>=1.0.0
+
+# PDF generation (recommended)
+reportlab>=4.0.0
+
+# Blake3 hashing — high-performance modern hash (recommended)
+blake3>=0.3.0
+
+# HTML-to-text conversion for PDF rendering (recommended)
+beautifulsoup4>=4.12.0
